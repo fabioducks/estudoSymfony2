@@ -1,0 +1,18 @@
+acme_store_homepage:
+    path:     /
+    defaults: { _controller: AcmeStoreBundle:Default:index }
+acme_store_create:
+    path:     /create
+    defaults: { _controller: AcmeStoreBundle:Default:create }
+acme_store_update:
+    path:     /update/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:update }
+show:
+    path:     /show/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:show }
+showjoin:
+    path:     /showjoin/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:showJoin }
+create_product:
+    path:     /createproduct/{idCategory}
+    defaults: { _controller: AcmeStoreBundle:Default:createProduct }
